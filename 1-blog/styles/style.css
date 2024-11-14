@@ -1,15 +1,18 @@
+* {
+	box-sizing: border-box;
+}
+
 html {
 	margin: 0 auto;
 	background: white;
 }
 
 body {
-	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
 	background: linear-gradient(180deg, #374151 0%, #111827 100%);
 	font-family: "Roboto", monospace;
-	width: 1440px;
+	max-width: 1440px;
 }
 
 #link-home {
@@ -17,10 +20,12 @@ body {
 	display: inline-block;
 }
 
-nav {
-	margin: 0;
+header {
 	padding: 60px 180px 69px;
-	width: 100%;
+}
+
+nav {
+	margin: 0;	
 }
 
 nav ul {
